@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+data/raw/
+data/discovery/
+data/development/
+data/test/
+
+.ipynb_checkpoints/
+
+.env

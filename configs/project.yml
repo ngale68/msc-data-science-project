@@ -1,0 +1,19 @@
+project:
+  name: "Multimodal Extraction of Financial Metrics from UK Companies House Annual Accounts"
+  random_seed: 20260921
+
+metrics:
+  - turnover
+  - profit_before_tax
+  - total_assets
+  - net_assets
+
+splits:
+  development_min: 30
+  development_max: 40
+  test_min: 50
+  test_max: 60
+
+evaluation:
+  primary: complete_record
+  primary_metric: micro_f1
